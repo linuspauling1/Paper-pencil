@@ -1,0 +1,384 @@
+$date
+	Mon Jun  5 15:12:26 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module mul_tb $end
+$var wire 8 ! A [7:0] $end
+$var wire 8 " Q [7:0] $end
+$var reg 8 # Y [7:0] $end
+$var reg 1 $ clk $end
+$var reg 8 % eX [7:0] $end
+$var reg 1 & rst_n $end
+$scope module cut $end
+$var wire 8 ' A [7:0] $end
+$var wire 8 ( Y [7:0] $end
+$var wire 1 $ clk $end
+$var wire 8 ) eX [7:0] $end
+$var wire 1 & rst_n $end
+$var wire 1 * shift $end
+$var wire 1 + load_registers $end
+$var wire 1 , add $end
+$var wire 8 - Q [7:0] $end
+$var wire 8 . B [7:0] $end
+$scope module i0 $end
+$var wire 1 , add $end
+$var wire 8 / B [7:0] $end
+$var reg 8 0 A [7:0] $end
+$upscope $end
+$scope module i1 $end
+$var wire 8 1 Y [7:0] $end
+$var wire 1 $ clk $end
+$var wire 8 2 eX [7:0] $end
+$var wire 1 & rst_n $end
+$var wire 1 * shift $end
+$var wire 1 + load_registers $end
+$var reg 8 3 A [7:0] $end
+$var reg 8 4 B [7:0] $end
+$var reg 8 5 Q [7:0] $end
+$upscope $end
+$scope module i2 $end
+$var wire 1 $ clk $end
+$var wire 1 6 q0 $end
+$var wire 1 & rst_n $end
+$var reg 8 7 N [7:0] $end
+$var reg 1 , add $end
+$var reg 1 + load_registers $end
+$var reg 1 * shift $end
+$var reg 4 8 st [3:0] $end
+$var reg 4 9 st_nxt [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 9
+b0 8
+b1000 7
+06
+b0 5
+b0 4
+b0 3
+b11 2
+b10 1
+bx 0
+b0 /
+b0 .
+b0 -
+0,
+1+
+0*
+b11 )
+b10 (
+bx '
+0&
+b11 %
+0$
+b10 #
+b0 "
+bx !
+$end
+#5
+1$
+#6
+1&
+#10
+0$
+#15
+b11 9
+0+
+b10 "
+b10 -
+b10 5
+b11 .
+b11 /
+b11 4
+b1 8
+1$
+#20
+0$
+#25
+b100 9
+1*
+b11 8
+1$
+#30
+0$
+#35
+16
+b101 9
+b110 7
+0*
+b1 "
+b1 -
+b1 5
+b100 8
+1$
+#40
+0$
+#45
+b1 9
+b101 8
+1$
+#50
+0$
+#55
+b10 9
+b1 8
+1$
+#60
+0$
+#65
+b11 9
+1,
+b10 8
+1$
+#70
+0$
+#75
+b100 9
+1*
+0,
+b11 8
+1$
+#80
+0$
+#85
+b101 9
+b101 7
+0*
+06
+b100 8
+b0 "
+b0 -
+b0 5
+1$
+#90
+0$
+#95
+b1 9
+b101 8
+1$
+#100
+0$
+#105
+b11 9
+b1 8
+1$
+#110
+0$
+#115
+b100 9
+1*
+b11 8
+1$
+#120
+0$
+#125
+b101 9
+b100 7
+0*
+b100 8
+1$
+#130
+0$
+#135
+b1 9
+b101 8
+1$
+#140
+0$
+#145
+b11 9
+b1 8
+1$
+#150
+0$
+#155
+b100 9
+1*
+b11 8
+1$
+#160
+0$
+#165
+b101 9
+b11 7
+0*
+b100 8
+1$
+#170
+0$
+#175
+b1 9
+b101 8
+1$
+#180
+0$
+#185
+b11 9
+b1 8
+1$
+#190
+0$
+#195
+b100 9
+1*
+b11 8
+1$
+#200
+0$
+#205
+b101 9
+b10 7
+0*
+b100 8
+1$
+#210
+0$
+#215
+b1 9
+b101 8
+1$
+#220
+0$
+#225
+b11 9
+b1 8
+1$
+#230
+0$
+#235
+b100 9
+1*
+b11 8
+1$
+#240
+0$
+#245
+b101 9
+b1 7
+0*
+b100 8
+1$
+#250
+0$
+#255
+b1 9
+b101 8
+1$
+#260
+0$
+#265
+b11 9
+b1 8
+1$
+#270
+0$
+#275
+b100 9
+1*
+b11 8
+1$
+#280
+0$
+#285
+b101 9
+b0 7
+0*
+b100 8
+1$
+#290
+0$
+#295
+b110 9
+b101 8
+1$
+#300
+0$
+#305
+b110 8
+1$
+#310
+0$
+#315
+1$
+#320
+0$
+#325
+1$
+#330
+0$
+#335
+1$
+#340
+0$
+#345
+1$
+#350
+0$
+#355
+1$
+#360
+0$
+#365
+1$
+#370
+0$
+#375
+1$
+#380
+0$
+#385
+1$
+#390
+0$
+#395
+1$
+#400
+0$
+#405
+1$
+#410
+0$
+#415
+1$
+#420
+0$
+#425
+1$
+#430
+0$
+#435
+1$
+#440
+0$
+#445
+1$
+#450
+0$
+#455
+1$
+#460
+0$
+#465
+1$
+#470
+0$
+#475
+1$
+#480
+0$
+#485
+1$
+#490
+0$
+#495
+1$
+#500
+0$
